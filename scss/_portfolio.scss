@@ -1,0 +1,51 @@
+.portfolio-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+
+  @include breakpoint-down(small) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.portfolio-item {
+  img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+  }
+  h5 {
+    font-size: 25px;
+    padding: 5px 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+    padding: 5px 15px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background: $main-color;
+    color: #fff;
+    width: 25%;
+
+    &:hover {
+      background-color: #7cb9e8;
+      color: #000;
+    }
+  }
+}
