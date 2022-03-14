@@ -7,3 +7,5 @@ Main Points:
 1. Basic desing with vanilla JS
 2. Use of SCSS to help preprocessing CSS
 3. Alternative to my personal site using ReactJS
+
+## URL: https://johncalesp.netlify.app/
